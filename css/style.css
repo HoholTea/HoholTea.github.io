@@ -30,20 +30,20 @@ body {
     overflow: visible;
 }
 
-.jp {
-    font-family: 'Noto Sans Japanese', sans-serif;
-    font-weight: 100;
-}
-
 .♥ {
-    font-family: 'Noto Sans Japanese', sans-serif;
-    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
     font-weight: 100;
     margin-bottom: 20px;
 }
 
 li {
     display: inline-block;
+}
+
+
+.🐓 {
+    margin-top: 30px;
 }
 
 .🐓 li,
@@ -178,7 +178,7 @@ li {
     padding: 14px 18px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #9575CD;
+    color: #9C27B0;
     -webkit-transition: all 0.3s cubic-bezier(.55, 0, .1, 1);
     transition: all 0.3s cubic-bezier(.55, 0, .1, 1);
     cursor: pointer;
@@ -200,8 +200,13 @@ li {
 }
 
 .about {
-    font-size: 32px;
-    font-weight: 100;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 70vw;
+    max-width: 600px;
+    margin: auto;
+    opacity: 0.8;
 }
 
 .hidden {
@@ -232,12 +237,12 @@ li {
 }
 
 ::selection {
-    background: #9575CD;
+    background: #00796B;
     color: #fff;
 }
 
 ::-moz-selection {
-    background: #9575CD;
+    background: #00796B;
     color: #fff;
 }
 
@@ -355,7 +360,6 @@ paper-ripple,
     transform: translateX(-50%) translateY(-50%);
     transition: 1s opacity;
 }
-
 .vid-ol {
     position: absolute;
     top: 0;
